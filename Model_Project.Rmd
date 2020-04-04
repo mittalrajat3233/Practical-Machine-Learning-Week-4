@@ -1,4 +1,11 @@
-#I-) Essential Packages
+---
+title: "Model_Project"
+author: "Rajat Mittal"
+date: "04/04/2020"
+output: html_document
+---
+
+I-) Essential Packages
 IscaretInstalled <- require("caret")
 if(!IscaretInstalled){
     install.packages("caret")
